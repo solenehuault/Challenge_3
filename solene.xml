@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cv SYSTEM "first.dtd">
+<?xml-stylesheet type="text/css" href="style_so.css"?>
+
 	<cv>
 		<etatcivil>
 				<nom>Huault</nom>
@@ -22,6 +24,7 @@
 			<titre>Code Academy</titre>
 			<date>De Mai 2016 à Janvier 2017</date>
 			<lieu>Rennes</lieu>
+			<mention>8 mois pour devenir dévellopeur web junior</mention>
 		</formation>	
 		
 		<h1_xp>Expérience</h1_xp>
@@ -40,10 +43,12 @@
 			<definition>Langue vivantes : Anglais (courant), Allemand (niveau scolaire)</definition>
 		</competences>
 
-		<h1_loisirs></h1_loisirs>
+		<h1_loisirs>Loisirs</h1_loisirs>
 		<loisirs>
+			<blabla>Jeux vidéo: RPGs-solo</blabla>
+			<blabla>Lecture : aventure-fantasy</blabla>
 			<blabla>Danse : orientale et de salon</blabla>
+			<blabla>Musique jouée: piano</blabla>
 			<blabla>Théatre</blabla>
-			<blabla></blabla>
 		</loisirs>
 	</cv>

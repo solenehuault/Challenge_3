@@ -18,7 +18,7 @@
 			<!ELEMENT portable (#PCDATA)>
 
 		<!ELEMENT mail (#PCDATA)>
-		<!ELEMENT photo (#PCDATA)>
+		<!ELEMENT photo (EMPTY)>
 
 	<!ELEMENT phrasecle (#CDATA)>
 
