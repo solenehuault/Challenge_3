@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cv SYSTEM "first.dtd">
+	<cv>
+		<etatcivil>
+				<nom>Huault</nom>
+				<prenom>Solène</prenom>
+				<age>20 ans</age>
+			<adresse>
+					<n_rue>19</n_rue>
+					<nomvoie>allée des Asturies</nomvoie>
+					<code_postal>35200</code_postal>
+					<ville>Rennes</ville>
+			</adresse>
+			<telephone>
+					<portable>06 25 43 68 40</portable>
+			</telephone>
+				<mail>solene.huault@gmail.com</mail>
+		</etatcivil>
+
+		<h1_formation>Formation</h1_formation>
+		<formation>
+			<titre>Code Academy</titre>
+			<date>De Mai 2016 à Janvier 2017</date>
+			<lieu>Rennes</lieu>
+		</formation>	
+		
+		<h1_xp>Expérience</h1_xp>
+		<xp>
+			<titre>Piscine 42</titre>
+			<date>Septembre 2015</date>
+			<lieu>Paris</lieu>
+			<description>1 mois totalement dévoué à l'apprentisssage du langage C.</description>
+		</xp>
+
+		<h1_competences>Compétences</h1_competences>
+		<competences>
+			<definition>Langages informatique : HTML, CSS, XML, DTD, JS, PHP, SQL, C, Ruby, Bash, Python</definition>
+		</competences>
+		<competences>
+			<definition>Langue vivantes : Anglais (courant), Allemand (niveau scolaire)</definition>
+		</competences>
+
+		<h1_loisirs></h1_loisirs>
+		<loisirs>
+			<blabla>Danse : orientale et de salon</blabla>
+			<blabla>Théatre</blabla>
+			<blabla></blabla>
+		</loisirs>
+	</cv>

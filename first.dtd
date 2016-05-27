@@ -37,7 +37,7 @@
 			<!ELEMENT description (#PCDATA)>
 
 	<!ELEMENT h1_competences (#CDATA)>
-	<!ELEMENT competences (definition, niveau)>
+	<!ELEMENT competences (definition, niveau*)>
 			<!ELEMENT definition (#PCDATA)>
 			<!ELEMENT niveau (#PCDATA)>
 
