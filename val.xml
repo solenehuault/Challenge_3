@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cv SYSTEM "first.dtd">
+<?xml-stylesheet type="text/css" href="styleval.css"?>
+	<cv>
+		<etatcivil>
+				<nom>Susset</nom>
+				<prenom>Valentin</prenom><br/>
+				<age>27 ans</age>
+				
+			<adresse>
+					<n_rue>52</n_rue>
+					<nomvoie>rue Louis Pétri</nomvoie>
+					<code_postal>35200</code_postal>
+					<ville>Rennes</ville>
+			</adresse>
+			<telephone>
+					<portable>07 83 81 45 27</portable>
+			</telephone>
+				<mail>valentinsusset@hotmail.com</mail>
+		</etatcivil>
+			<phrasecle>Développeur Web</phrasecle>
+		<formation>
+			<h1_formation>Formation</h1_formation>
+			<titre>Licence LLCE anglais</titre>
+			<date>2009-2012</date>
+			<lieu>Bordeaux</lieu>
+			<titre>Licence LLCE anglais</titre>
+			<date>2009-2012</date>
+			<lieu>Bordeaux</lieu>
+			<titre>Licence LLCE anglais</titre>
+			<date>2009-2012</date>
+			<lieu>Bordeaux</lieu>
+		</formation>	
+		<xp>
+			<h1_xp>Expérience Professionelle</h1_xp>
+			<titre>Aide à domicile pour Alpha Care</titre>
+			<date>2014/2015</date>
+			<lieu>Liverpool, Angleterre</lieu>
+			<description>Assistance avec les tâches domestiques, prise de médicaments, toilette, documentation stricte, etc.</description>
+			<titre>Aide à domicile pour Alpha Care</titre>
+			<date>2014/2015</date>
+			<lieu>Liverpool, Angleterre</lieu>
+			<description>Assistance avec les tâches domestiques, prise de médicaments, toilette, documentation stricte, etc.</description>
+			<titre>Aide à domicile pour Alpha Care</titre>
+			<date>2014/2015</date>
+			<lieu>Liverpool, Angleterre</lieu>
+			<description>Assistance avec les tâches domestiques, prise de médicaments, toilette, documentation stricte, etc.</description>
+		</xp>
+		<competences>
+			<definition>Langages informatiques : html, css, javascript, ruby, php, mysql</definition>
+			<definition>Langues : anglais courant</definition>
+		</competences>
+		<loisirs>
+			<blabla>Centres d'intérêt : blablablabla</blabla>
+		</loisirs>
+	</cv>
