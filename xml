@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cv SYSTEM "cv.dtd">
+<?xml-stylesheet type="text/css" href="style.css"?>
+<cv> 
+	<systeme>
+		<etatcivil> 
+      
+			<nom >  RASHO</nom>
+			<prenom> Abdul Rahman</prenom>
+			<age> 42ans </age>
+			<adresse> 
+				<n_rue>3 </n_rue> 
+				<nomvoie>rue Pierre-Henri TEITGEN </nomvoie> 
+				<code_postal> 35000</code_postal>
+				<ville> Rennes</ville>
+			</adresse>
+			<telephone>	
+				<fixe>***</fixe>
+				<portable>tél:0652821872 </portable>
+			</telephone>
+
+			<mail> @:ab_rasho@yahoo.fr</mail>
+		</etatcivil>
+
+	<phrasecle>Expérience significative dans l'enseignement supérieure à l'étranger, titulaire diplôme nationale docteur en psychologie, trilingue, diplôme ICDL, Maîtrisé logiciels de statistique genre SPSS, dynamique, autonome, esprit d'équipe, bon relation.</phrasecle>
+
+		
+     	<formations> 
+     		<h1> Formations </h1>
+     			<titre> Doctorat en Psychologie</titre>
+            		<date> 18/12/2009</date>
+           		<lieu>Université Rennes2</lieu>
+          		<mention> Très honorable</mention> 
+          			<titre> Master2recherche Psychopathologie et Champs Cliniques</titre>
+            		<date> 15/09/2005</date>
+          			<lieu>Université Rennes2</lieu>
+        			<mention> Bien</mention> 
+        				<titre> DES en Psychologie d'Information</titre>
+         				<date> 18/12/2009</date>
+           				<lieu>Université de Damas</lieu>
+         				<mention> Très Bien</mention>
+         					<titre> Licence en Psychologie</titre>
+          					<date> 1995</date>
+          					<lieu>Université de Damas</lieu>
+         					<mention> Bien</mention> 
+         						<titre> Baccalauréat Général</titre>
+          						<date> 1995</date>
+        						<lieu>Haska (Syrie)</lieu>
+      							<mention> Bien</mention>
+     	</formations>
+
+		<xp>
+			<h1> Experiences</h1>
+       			<titre>Maître de conférence</titre>
+         		<date>du 09/2012 au 04/2014</date>
+       			<lieu> Université de Zakho</lieu> 
+		       		<titre>Maître de conférence</titre>
+        			<date> du 09/2010 au 08/2012</date>
+       				<lieu> Université de Damas</lieu><br/>
+            			<titre>Assistant maître de conférence</titre>
+         				<date>du 09/2000 au 08/2002</date>
+       					<lieu>Université de Damas</lieu>
+     		</xp>
+
+		
+		<competences> 
+			<h1> Compétances</h1>
+				<definition> Encadrer, animer des cours, conférences, formations</definition>
+				<niveau> Avancé</niveau>
+					<definition>Elaborer et préparer des cours, des travaux ou pratiques</definition>
+         				<niveau> Avancé</niveau>
+         					<definition>Amener et/ou diriger des recherches </definition> 
+        					<niveau>Intermédiaire</niveau>
+        						<definition>Préparer et organiser différentes sessions</definition>
+         						<niveau>Intermédiaire</niveau>
+		</competences>
+		
+	
+
+
+     	<loisirs>
+     		<h1> Centres d'Intérêt </h1>
+     		<blabla> Natation , Voyage, Echec</blabla>
+
+     	</loisirs>
+     		
+
+	</systeme>
+</cv>
