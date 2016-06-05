@@ -1,0 +1,56 @@
+* {
+	font-family: sans-serif;
+	display: block;
+	color: #6D1E16;
+}
+
+cv {
+	background-color: #FFFDE8;
+
+}
+
+n_rue, nomvoie {
+	display: inline-block;
+}
+
+phrasecle {
+	text-align: center;
+	font-size: 33px;
+	font-weight: 800;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	font-family: Verdana;
+	letter-spacing: 20px;
+	border: double;
+	width: 500px;
+	margin: auto;
+}
+
+formation {
+	margin-top: 111px;
+
+}
+
+xp {
+	margin-left: 666px;
+	margin-top: -230px;
+}
+
+h1_formation, h1_xp {
+	font-size: 26px;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-bottom: 30px;
+}
+
+competences {
+	margin-top: 50px;
+}
+
+loisirs {
+	margin-left: 666px;
+	margin-top: -38px;
+
+titre, date{ 
+	display: inline-block;
+}

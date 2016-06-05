@@ -1,0 +1,77 @@
+* {
+	font-family: Georgia;
+	display: block;
+}
+
+cv {
+	background-color: #4dff4d;
+
+}
+etatcivil {
+	display: block;
+	line-height: 30px;
+	margin: 20px;
+	padding: 20px;
+}
+nom, prenom {
+	display: inline-block;
+}
+n_rue,nomvoie {
+	display: inline-block;
+} 
+
+code_postal, ville {
+	display: inline-block;
+}
+
+phrasecle {
+	display:block;
+	border: double;
+	width: 700px;
+	margin: auto;
+	padding:2%;
+	background-color: #99ffcc;
+}
+h1 {
+	display:block;
+	border: double;
+	width: 900px;
+	margin: auto;
+	padding:2%;
+	text-align:center;
+	background-color: #ffffff
+}
+
+date, lieu, mention {
+	display: inline;
+	
+}
+
+formation {
+	display: block;
+	line-height: 30px;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+xp {
+	display: block;
+	line-height: 20px;
+	margin: 10px;
+
+
+
+competences {
+	display: block;
+	line-height: 10px;
+	margin: 10px;
+}
+definition, niveau {
+	display:inline;
+}
+loisirs {
+	display: block;
+	line-height: 10px;
+	margin: 10px;
+}
