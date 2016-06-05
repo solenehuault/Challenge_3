@@ -1,0 +1,48 @@
+<!DOCTYPE cv [
+<!ELEMENT cv (h1_cv*, etatcivil, phrasecle*, h1_formation, formation+, h1_xp, xp+, h1_competences, competences+, h1_loisirs, loisirs)>
+
+	<!ELEMENT h1_cv (#CDATA)>
+	<!ELEMENT etatcivil (nom, prenom, age, permis*, addresse, telephone, mail, photo*,)>
+		<!ELEMENT nom (#PCDATA)>
+		<!ELEMENT prenom (#PCDATA)>
+		<!ELEMENT age (#PCDATA)>
+		<!ELEMENT permis (#PCDATA)>
+
+		<!ELEMENT adresse (n_rue, nomvoie, code_postal, ville)>
+			<!ELEMENT n_rue (#PCDATA)>
+			<!ELEMENT nomvoie (#PCDATA)>
+			<!ELEMENT code_postal (#PCDATA)>
+			<!ELEMENT ville (#PCDATA)>
+
+		<!ELEMENT telephone(fixe*, portable*)>
+			<!ELEMENT fixe (#PCDATA)>
+			<!ELEMENT portable (#PCDATA)>
+
+		<!ELEMENT mail (#PCDATA)>
+		<!ELEMENT photo (#PCDATA)>
+
+	<!ELEMENT phrasecle (#CDATA)>
+
+	<!ELEMENT h1_formation (#CDATA)>
+	<!ELEMENT formation(titre, date, lieu, mention*)>
+			<!ELEMENT titre (#PCDATA)>
+			<!ELEMENT date (#PCDATA)>
+			<!ELEMENT lieu (#PCDATA)>
+			<!ELEMENT mention (#PCDATA)>
+
+	<!ELEMENT h1_xp (#CDATA)>
+	<!ELEMENT xp (titre, date, lieu, description)>
+			<!ELEMENT titre (#PCDATA)>
+			<!ELEMENT date (#PCDATA)>
+			<!ELEMENT lieu (#PCDATA)>
+			<!ELEMENT description (#PCDATA)>
+
+	<!ELEMENT h1_competences (#CDATA)>
+	<!ELEMENT competences (definition, niveau)>
+			<!ELEMENT definition (#PCDATA)>
+			<!ELEMENT niveau (#PCDATA)>
+
+	<!ELEMENT h1_loisirs (#CDATA)>
+	<!ELEMENT loisirs (blabla+)>
+			<!ELEMENT blabla (#PCDATA)>
+]>

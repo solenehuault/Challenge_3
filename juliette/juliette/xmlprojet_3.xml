@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cv SYSTEM "first.dtd">
+<?xml-stylesheet type="text/css"  href="style.css" ?>
+	<cv>
+		<etatcivil>
+				<nom>Saint-Jalme</nom>
+				<prenom>Juliette</prenom>
+				<age>23 ans</age>
+				<permis></permis>
+			<adresse>
+					<n_rue>16</n_rue>
+					<nomvoie>Cours Camille Claudel</nomvoie>
+					<code_postal>35136</code_postal>
+					<ville>Saint-Jacques de la lande</ville>
+			</adresse>
+			<telephone>
+					<fixe></fixe>
+					<portable>06 48 08 37 22</portable>
+			</telephone>
+				<mail>Juliette@Saint-Jalme.fr</mail>
+			<photo></photo>
+		</etatcivil>
+			<phrasecle>phrase hyper philosophique qui epate....</phrasecle>
+			<h1_formation>  </h1_formation>	
+		<xp>
+			<titre>xp: blablabla</titre>
+			<date>blablabla</date>
+			<lieu>blablabla</lieu>
+			<description>blablabla</description>
+		</xp>
+				<xp>
+			<titre>xp: blablabla</titre>
+			<date>blablabla</date>
+			<lieu>blablabla</lieu>
+			<description>blablabla</description>
+		</xp>
+		<competences>
+			<definition>Anglais</definition>
+			<niveau>☺☺☺ • •</niveau>
+		</competences>
+		<competences>
+			<definition>Espagnol</definition>
+			<niveau>☺☺☺ • •</niveau>
+		</competences>
+		<competences>
+			<definition>Italien</definition>
+			<niveau>☺☺☺ • •</niveau>
+		</competences>
+		<loisirs>
+			<blabla>J'aime le Tennis,le café,les Jeux videos,les Cartes magicset la navigation a voile</blabla>
+		</loisirs>
+	</cv>

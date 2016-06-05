@@ -14,17 +14,17 @@
 					<ville>Rennes</ville>
 			</adresse>
 			<telephone>
-					<portable>06 25 43 68 40</portable>
+					<portable>06-25-43-68-40</portable>
 			</telephone>
 				<mail>solene.huault@gmail.com</mail>
 		</etatcivil>
 
 		<h1_formation>Formation</h1_formation>
 		<formation>
-			<titre>Code Academy</titre>
+			<titre>Code Academie</titre>
 			<date>De Mai 2016 à Janvier 2017</date>
 			<lieu>Rennes</lieu>
-			<mention>8 mois pour devenir dévellopeur web junior</mention>
+			<mention>8 mois pour devenir développeur web junior</mention>
 		</formation>	
 		
 		<h1_xp>Expérience</h1_xp>
@@ -37,10 +37,13 @@
 
 		<h1_competences>Compétences</h1_competences>
 		<competences>
-			<definition>Langages informatique : HTML, CSS, XML, DTD, JS, PHP, SQL, C, Ruby, Bash, Python</definition>
+			<definition>Langages informatique : HTML, CSS, XML, JS, PHP, SQL, C, Ruby, Bash, Python</definition>
 		</competences>
 		<competences>
-			<definition>Langue vivantes : Anglais (courant), Allemand (niveau scolaire)</definition>
+			<definition>Langue vivantes : Anglais (lu, écrit, parlé), Allemand (notion)</definition>
+		</competences>
+		<competences>
+			<definition>Ecoute, adaptabilité, résistance au stress, dynamique, rigoureuse, créative</definition>
 		</competences>
 
 		<h1_loisirs>Loisirs</h1_loisirs>

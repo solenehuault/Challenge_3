@@ -1,0 +1,56 @@
+*{
+	display:block;
+}
+cv {
+	background:#F5F5F5;
+	color:#4682B4;
+	font-size:25px;
+	font-family:sans-serif;
+}
+etatcivil{
+	
+	width:400px;
+	margin-left:5px;	
+	text-align:center;
+}
+n_rue, nomvoie {
+	display:inline-block;
+}
+nom, prenom, age, n_rue, nomvoie, code_postal, ville,telephone,mail{
+	display:inline-block;
+}
+
+phrasecle{
+	text-align:center;
+	border: #696969 double ;
+	color:#696969;
+	display:inline;
+	margin-left:600px;
+	font-weight:bold;
+	font-size:35px;
+	padding:10px;
+	
+}
+
+
+xp {
+	float:right;
+	width:600px;
+	margin-left:5px;
+	text-align:center;
+	height:600px;
+	margin-top:45px;
+	margin-bottom:15px;
+	border-right: black dotted 1px;
+	
+}
+competences {
+	margin-top:35px;
+	margin-bottom:15px;
+}
+definition{
+	color:#696969;
+}
+loisir{
+	margin-top:45px;
+}
