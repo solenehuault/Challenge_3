@@ -1,57 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cv SYSTEM "first.dtd">
-<?xml-stylesheet type="text/css" href="style_so.css"?>
+<?xml-stylesheet type="text/xsl" href="my.xsl"?>
+<cv>
+	<etatcivil>
+		<nom>Huault</nom>
+		<prenom>Solène</prenom>
+		<age>20 ans</age>
+		<adresse>
+			<n_rue>19</n_rue>
+			<nomvoie>allée des Asturies</nomvoie>
+			<code_postal>35200</code_postal>
+			<ville>Rennes</ville>
+		</adresse>
+		<telephone>
+			<portable>06-25-43-68-40</portable>
+		</telephone>
+		<mail>solene.huault@gmail.com</mail>
+	</etatcivil>
 
-	<cv>
-		<etatcivil>
-				<nom>Huault</nom>
-				<prenom>Solène</prenom>
-				<age>20 ans</age>
-			<adresse>
-					<n_rue>19</n_rue>
-					<nomvoie>allée des Asturies</nomvoie>
-					<code_postal>35200</code_postal>
-					<ville>Rennes</ville>
-			</adresse>
-			<telephone>
-					<portable>06-25-43-68-40</portable>
-			</telephone>
-				<mail>solene.huault@gmail.com</mail>
-		</etatcivil>
+	<formation>
+		<titre>Code Academie</titre>
+		<date>De Mai 2016 à Janvier 2017</date>
+		<lieu>Rennes</lieu>
+		<mention>8 mois pour devenir développeur web junior</mention>
+	</formation>	
 
-		<h1_formation>Formation</h1_formation>
-		<formation>
-			<titre>Code Academie</titre>
-			<date>De Mai 2016 à Janvier 2017</date>
-			<lieu>Rennes</lieu>
-			<mention>8 mois pour devenir développeur web junior</mention>
-		</formation>	
-		
-		<h1_xp>Expérience</h1_xp>
-		<xp>
-			<titre>Piscine 42</titre>
-			<date>Septembre 2015</date>
-			<lieu>Paris</lieu>
-			<description>1 mois totalement dévoué à l'apprentisssage du langage C.</description>
-		</xp>
+	<xp>
+		<titre>Piscine 42</titre>
+		<date>Septembre 2015</date>
+		<lieu>Paris</lieu>
+		<description>1 mois totalement dévoué à l'apprentisssage du langage C.</description>
+	</xp>
 
-		<h1_competences>Compétences</h1_competences>
-		<competences>
-			<definition>Langages informatique : HTML, CSS, XML, JS, PHP, SQL, C, Ruby, Bash, Python</definition>
-		</competences>
-		<competences>
-			<definition>Langue vivantes : Anglais (lu, écrit, parlé), Allemand (notion)</definition>
-		</competences>
-		<competences>
-			<definition>Ecoute, adaptabilité, résistance au stress, dynamique, rigoureuse, créative</definition>
-		</competences>
+	<competences>
+		<definition>Langages informatique : HTML, CSS, XML, JS, PHP, SQL, C, Ruby, Bash, Python</definition>
+		<definition>Langue vivantes : Anglais (lu, écrit, parlé), Allemand (notion)</definition>
+		<definition>Ecoute, adaptabilité, résistance au stress, dynamique, rigoureuse, créative, cannibale</definition>
+	</competences>
 
-		<h1_loisirs>Loisirs</h1_loisirs>
-		<loisirs>
-			<blabla>Jeux vidéo: RPGs-solo</blabla>
-			<blabla>Lecture : aventure-fantasy</blabla>
-			<blabla>Danse : orientale et de salon</blabla>
-			<blabla>Musique jouée: piano</blabla>
-			<blabla>Théatre</blabla>
-		</loisirs>
-	</cv>
+	<loisirs>
+		<blabla>Jeux vidéo: RPGs-solo</blabla>
+		<blabla>Lecture : aventure-fantasy</blabla>
+		<blabla>Danse : orientale et de salon</blabla>
+		<blabla>Musique jouée: piano</blabla>
+		<blabla>Théatre</blabla>
+	</loisirs>
+</cv>

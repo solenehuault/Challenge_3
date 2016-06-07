@@ -1,56 +1,33 @@
-* {
-	display: block;
+body {
+	background-color: #7FA437;
+	height: 1200px;
 }
 
-etatcivil {
-	border: 5px ridge grey;
-	margin: 5px;
+div {
+	margin: auto;
 	padding: 5px;
-	width: 25%;
-	background-color: #E2E2E2;
 }
 
-mail {
-	text-decoration: underline;
-}
-nom, prenom, n_rue, nomvoie, code_postal, ville {
-	display: inline;
-}
-
-h1_formation, h1_competences, h1_xp, h1_loisirs{	
-	font-size: 22px;
-	text-decoration: underline;
-	margin: 20px 0 10px 40px;
-}
-
-formation {
-	border: 5px ridge grey;
+.left {
+	background-color: #A8BD80;
+	float: left;
+	width: 20%;
+	clear: both;
 	margin: 5px;
-	padding: 5px;
-	background-color: #E2E2E2;
-	width: 30%;
+	height: 250px;
 }
 
-xp {
-	border: 5px ridge grey;
-	margin: 5px;
-	padding: 5px;
-	background-color: #E2E2E2;
-	width: 30%;
+.top {
+	font-size: 15px;
 }
 
-competences {
-	border: 5px ridge grey;
-	margin: 5px;
-	padding: 5px;
-	background-color: #E2E2E2;
-	width: 30%;
+.right {
+	background-color: #5C8A00;
+	clear: both;
+	margin: 5px 5px 5px 400px;
+	width: 50%
 }
 
-loisirs {
-	border: 5px ridge grey;
-	margin: 5px;
-	padding: 5px;
-	background-color: #E2E2E2;
-	width: 30%;
+h1 {
+	text-align: center;
 }
