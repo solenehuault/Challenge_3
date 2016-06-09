@@ -14,11 +14,20 @@
 		<title>Solène Huault</title>
 	</head>
 	<body>
-		<div class="left"> <xsl:value-of select="cv/etatcivil"></xsl:value-of> </div>
-		<div class="right"> <h1>Formation</h1> <xsl:value-of select="cv/formation"></xsl:value-of> </div>
-		<div class="right"> <h1>XP</h1> <xsl:value-of select="cv/xp"></xsl:value-of> </div>
-		<div class="right"> <h1>Skills</h1> <xsl:value-of select="cv/competences"></xsl:value-of> </div>
-		<div class="left"> <h1>Hobby</h1> <xsl:value-of select="cv/loisirs"></xsl:value-of> </div>
+		<div class="left">
+			<div>
+				<xsl:value-of select="cv/etatcivil/nom"></xsl:value-of>
+				<xsl:value-of select="cv/etatcivil/prenom"></xsl:value-of>
+			</div>
+			<div> <xsl:value-of select="cv/etatcivil/age"></xsl:value-of> </div>
+			<div> <xsl:value-of select="cv/etatcivil/adresse"></xsl:value-of> </div>
+			<div> <xsl:value-of select="cv/etatcivil/telephone"></xsl:value-of> </div>
+			<div> <xsl:value-of select="cv/etatcivil/mail"></xsl:value-of> </div>
+		</div>
+		<div class="center"> <h1>Formation</h1> <xsl:value-of select="cv/formation"></xsl:value-of> </div>
+		<div class="center"> <h1>XP</h1> <xsl:value-of select="cv/xp"></xsl:value-of> </div>
+		<div class="center"> <h1>Skills</h1> <xsl:value-of select="cv/competences"></xsl:value-of> </div>
+		<div class="right"> <h1>Hobby</h1> <xsl:value-of select="cv/loisirs"></xsl:value-of> </div>
 	</body>
 </xsl:template>
 

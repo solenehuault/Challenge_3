@@ -17,11 +17,7 @@ div {
 	height: 250px;
 }
 
-.top {
-	font-size: 15px;
-}
-
-.right {
+.center {
 	background-color: #5C8A00;
 	clear: both;
 	margin: 5px 5px 5px 400px;
