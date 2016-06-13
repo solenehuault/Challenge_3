@@ -19,30 +19,30 @@
 	</etatcivil>
 
 	<formation>
-		<titre>Code Academie</titre>
-		<date>De Mai 2016 à Janvier 2017</date>
+		<titre>Code Académie</titre>
+		<date>De mai 2016 à janvier 2017, </date>
 		<lieu>Rennes</lieu>
-		<mention>8 mois pour devenir développeur web junior</mention>
+		<mention>8 mois pour devenir développeur Web</mention>
 	</formation>	
 
 	<xp>
 		<titre>Piscine 42</titre>
-		<date>Septembre 2015</date>
+		<date>septembre 2015, </date>
 		<lieu>Paris</lieu>
-		<description>1 mois totalement dévoué à l'apprentisssage du langage C.</description>
+		<description>1 mois totalement dédié à l'apprentisssage du langage C</description>
 	</xp>
 
 	<competences>
-		<definition>Langages informatique : HTML, CSS, XML, JS, PHP, SQL, C, Ruby, Bash, Python</definition>
-		<definition>Langue vivantes : Anglais (lu, écrit, parlé), Allemand (notion)</definition>
-		<definition>Ecoute, adaptabilité, résistance au stress, dynamique, rigoureuse, créative, cannibale</definition>
+		<info>Langages informatique : HTML, CSS, XML, JS, PHP, SQL, C, Ruby, Bash, Python</info>
+		<langue>Langues vivantes : Anglais (lu, écrit, parlé), Allemand (notion)</langue>
+		<skill>Écoute, adaptabilité, résistance au stress, dynamisme, rigueur, créativité</skill>
 	</competences>
 
 	<loisirs>
-		<blabla>Jeux vidéo: RPGs-solo</blabla>
-		<blabla>Lecture : aventure-fantasy</blabla>
-		<blabla>Danse : orientale et de salon</blabla>
-		<blabla>Musique jouée: piano</blabla>
-		<blabla>Théatre</blabla>
+		<jv>Jeux vidéo : RPGs-solo</jv>
+		<lecture>Lecture : aventure-fantasy</lecture>
+		<danse>Danse : orientale et de salon</danse>
+		<musique>Musique jouée : piano</musique>
+		<theatre>Théatre</theatre>
 	</loisirs>
 </cv>

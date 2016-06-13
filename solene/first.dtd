@@ -32,9 +32,14 @@
 			<!ELEMENT lieu (#PCDATA)>
 			<!ELEMENT description (#PCDATA)>
 
-	<!ELEMENT competences (definition, niveau?)>
-			<!ELEMENT definition (#PCDATA)>
-			<!ELEMENT niveau (#PCDATA)>
+	<!ELEMENT competences (info, langue, skill)>
+			<!ELEMENT info (#PCDATA)>
+			<!ELEMENT langue (#PCDATA)>
+			<!ELEMENT skill (#PCDATA)>
 
-	<!ELEMENT loisirs (info+)>
-			<!ELEMENT blabla (#PCDATA)>
+	<!ELEMENT loisirs (jv, lecture, danse, musique, theatre)>
+			<!ELEMENT jv (#PCDATA)>
+			<!ELEMENT lecture (#PCDATA)>
+			<!ELEMENT danse (#PCDATA)>
+			<!ELEMENT musique (#PCDATA)>
+			<!ELEMENT theatre (#PCDATA)>

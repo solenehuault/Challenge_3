@@ -14,7 +14,7 @@
 		<title>Solène Huault</title>
 	</head>
 	<body>
-		<div class="left">
+		<div class="sidebar header">
 			<div>
 				<xsl:value-of select="cv/etatcivil/nom"></xsl:value-of>
 				<xsl:value-of select="cv/etatcivil/prenom"></xsl:value-of>
@@ -24,10 +24,38 @@
 			<div> <xsl:value-of select="cv/etatcivil/telephone"></xsl:value-of> </div>
 			<div> <xsl:value-of select="cv/etatcivil/mail"></xsl:value-of> </div>
 		</div>
-		<div class="center"> <h1>Formation</h1> <xsl:value-of select="cv/formation"></xsl:value-of> </div>
-		<div class="center"> <h1>XP</h1> <xsl:value-of select="cv/xp"></xsl:value-of> </div>
-		<div class="center"> <h1>Skills</h1> <xsl:value-of select="cv/competences"></xsl:value-of> </div>
-		<div class="right"> <h1>Hobby</h1> <xsl:value-of select="cv/loisirs"></xsl:value-of> </div>
+		<div class="section">
+			<h1>Formation</h1>
+			<div class="section-titre"> <xsl:value-of select="cv/formation/titre"></xsl:value-of> </div>
+			<div>
+				<xsl:value-of select="cv/formation/date"></xsl:value-of>
+				<xsl:value-of select="cv/formation/lieu"></xsl:value-of>
+			</div>
+			<div> <xsl:value-of select="cv/formation/mention"></xsl:value-of> </div>
+		</div>
+		<div class="section">
+			<h1>XP</h1>
+			<div class="section-titre"> <xsl:value-of select="cv/xp/titre"></xsl:value-of> </div>
+			<div>
+				<xsl:value-of select="cv/xp/date"></xsl:value-of>
+				<xsl:value-of select="cv/xp/lieu"></xsl:value-of>
+			</div>
+			<div> <xsl:value-of select="cv/xp/description"></xsl:value-of> </div>
+		</div>
+		<div class="section">
+			<h1>Skills</h1>
+			<div> <xsl:value-of select="cv/competences/info"></xsl:value-of> </div>
+			<div> <xsl:value-of select="cv/competences/langue"></xsl:value-of> </div>
+			<div> <xsl:value-of select="cv/competences/skill"></xsl:value-of> </div>
+		</div>
+		<div class="sidebar footer">
+			<h1>Hobby</h1>
+			<div> <xsl:value-of select="cv/loisirs/jv"></xsl:value-of> </div>
+			<div> <xsl:value-of select="cv/loisirs/lecture"></xsl:value-of> </div>
+			<div> <xsl:value-of select="cv/loisirs/danse"></xsl:value-of> </div>
+			<div> <xsl:value-of select="cv/loisirs/musique"></xsl:value-of> </div>
+			<div> <xsl:value-of select="cv/loisirs/theatre"></xsl:value-of> </div>
+		</div>
 	</body>
 </xsl:template>
 
