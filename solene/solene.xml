@@ -6,6 +6,7 @@
 		<nom>Huault </nom>
 		<prenom>Solène</prenom>
 		<age>20 ans</age>
+		<nationalite>Française</nationalite>
 		<adresse>
 			<n_rue>19</n_rue>
 			<nomvoie>allée des Asturies</nomvoie>
@@ -13,7 +14,7 @@
 			<ville>Rennes</ville>
 		</adresse>
 		<telephone>
-			<portable>06-25-43-68-40</portable>
+			<portable>06 25 43 68 40</portable>
 		</telephone>
 		<mail>solene.huault@gmail.com</mail>
 	</etatcivil>
@@ -33,13 +34,14 @@
 	</xp>
 
 	<competences>
-		<info>Langages informatique : HTML, CSS, XML, JS, PHP, SQL, C, Ruby, Bash, Python</info>
-		<langue>Langues vivantes : Anglais (lu, écrit, parlé), Allemand (notion)</langue>
+		<info>HTML, CSS, XML, JS, PHP, SQL, C, Ruby, Bash, Python</info>
+		<langue>Anglais : lu, écrit, parlé</langue>
+		<langue>Allemand : notion</langue>
 		<skill>Écoute, adaptabilité, résistance au stress, dynamisme, rigueur, créativité</skill>
 	</competences>
 
 	<loisirs>
-		<jv>Jeux vidéo : RPGs-solo</jv>
+		<jv>Jeux vidéo : RPGs</jv>
 		<lecture>Lecture : aventure-fantasy</lecture>
 		<danse>Danse : orientale et de salon</danse>
 		<musique>Musique jouée : piano</musique>

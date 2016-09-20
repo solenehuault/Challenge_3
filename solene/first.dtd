@@ -1,9 +1,10 @@
 <!ELEMENT cv (etatcivil, phrasecle?, formation+, xp+, competences+, loisirs)>
 
-	<!ELEMENT etatcivil (nom, prenom, age, permis?, addresse, telephone, mail, photo?)>
+	<!ELEMENT etatcivil (nom, prenom, age, nationalite, permis?, addresse, telephone, mail, photo?)>
 		<!ELEMENT nom (#PCDATA)>
 		<!ELEMENT prenom (#PCDATA)>
 		<!ELEMENT age (#PCDATA)>
+		<!ELEMENT nationalite (#PCDATA)>
 		<!ELEMENT permis (#PCDATA)>
 		<!ELEMENT adresse (n_rue, nomvoie, code_postal, ville)>
 			<!ELEMENT n_rue (#PCDATA)>
@@ -32,7 +33,7 @@
 			<!ELEMENT lieu (#PCDATA)>
 			<!ELEMENT description (#PCDATA)>
 
-	<!ELEMENT competences (info, langue, skill)>
+	<!ELEMENT competences (info, langue+, skill)>
 			<!ELEMENT info (#PCDATA)>
 			<!ELEMENT langue (#PCDATA)>
 			<!ELEMENT skill (#PCDATA)>
